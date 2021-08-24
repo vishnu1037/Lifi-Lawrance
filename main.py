@@ -6,6 +6,7 @@ import pandas as pd
 import mysql.connector
 conn = mysql.connector.connect(host='sql6.freesqldatabase.com',user='sql6431701',passwd='hcK3UBCeSg',database='sql6431701')
 cur = conn.cursor()
+#give text file name here
 df =pd.read_csv(r"var.txt",sep='|')
 for i,r in df.iterrows():
     print(r.DOB)
