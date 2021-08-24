@@ -10,11 +10,11 @@ Store it in a dataase.
 Once main.py is ran the data maintained in var.txt is read using pandas and
 we will then make entries in database tables
 1)Customer_data - It will have all entries of var.txt
-2)Talble_India - entries specific to india
+2)Table_India - entries specific to india
 3)Table_USA - ""
 4)Table_NewYorkCity(since in given doc test data has country NYC apart from USA)-""
 5)Table_Australia - ""
-6)Tale_Philippines - ""
+6)Table_Philippines - ""
 
 Database used:
 Host: sql6.freesqldatabase.com
